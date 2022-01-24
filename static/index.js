@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '不太行啊，也许是手滑嘛🤔';
-    if (score <= 99) return '差那么一点😣';
-    if (score <= 149) return '看样子超过大多数人捏😋🥰';
-    if (score <= 199) return '太强了🥵🥵';
+    if (score <= 49) return '这么点分，事昏了罢）';
+    if (score <= 99) return '你是一个一个。。啊~';
+    if (score <= 149) return '尊享天台晒一发加红茶待遇';
+    if (score <= 199) return '太强了，要被仙贝雷普力（喜';
     return '人否？';
 }
 
